@@ -1,0 +1,42 @@
+.wrapper {
+  padding: 0;
+  font-family: "LXGW WenKai TC", cursive;
+}
+
+.header {
+  font-size: 20px;
+  background-color: #4535C1;
+}
+
+.navbar-brand {
+  width: 8%;
+  min-width: 90px;
+}
+
+.nav-item > a {
+  color: #fff;
+}
+
+.navbar-nav .nav-link:focus {
+  color: #fff;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #77E4C8;
+}
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.search-btn {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.search-btn:hover {
+  font-weight: bold;
+  color: #4535C1;
+  background-color: #fff;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
