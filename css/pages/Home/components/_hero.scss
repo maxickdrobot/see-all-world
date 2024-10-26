@@ -1,0 +1,32 @@
+.hero {
+    min-height: 100vh;
+    background: url("../imgs/hero-paralax.png")  fixed;
+    background-size: cover;
+
+    .container {
+        margin-top: 70px;
+        background-color: #ffffff57;
+        backdrop-filter: blur(15px);
+    }
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: 1px solid tools.$light-color;
+    border: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: tools.$active-color;
+}
+
+
+.btn-primary {
+    background-color: tools.$primary-color;
+    border-color: tools.$primary-color;
+
+    &:hover {
+        background-color: darken(tools.$primary-color, 5);
+        border-color: darken(tools.$primary-color, 5);
+    }
+}

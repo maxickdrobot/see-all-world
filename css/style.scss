@@ -2,4 +2,11 @@
     padding: 0;
     font-family: "LXGW WenKai TC", cursive;
 }
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
 @import "./global/header";
+
+@import "./pages/Home/home"

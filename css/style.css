@@ -3,9 +3,14 @@
   font-family: "LXGW WenKai TC", cursive;
 }
 
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
 .header {
   font-size: 20px;
-  background-color: #4535C1;
+  background-color: rgb(44, 105, 201);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.445);
 }
 
 .navbar-brand {
@@ -21,7 +26,7 @@
   color: #fff;
 }
 .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-  color: #77E4C8;
+  color: #ffd993;
 }
 .navbar-nav .nav-link.active {
   font-weight: bold;
@@ -33,10 +38,44 @@
 }
 .search-btn:hover {
   font-weight: bold;
-  color: #4535C1;
+  color: rgb(44, 105, 201);
   background-color: #fff;
 }
 
 .navbar-toggler {
   background-color: white;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.hero {
+  min-height: 100vh;
+  background: url("../imgs/hero-paralax.png") fixed;
+  background-size: cover;
+}
+.hero .container {
+  margin-top: 70px;
+  background-color: rgba(255, 255, 255, 0.3411764706);
+  backdrop-filter: blur(15px);
+}
+
+.accordion-item {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffd993;
+}
+
+.btn-primary {
+  background-color: rgb(44, 105, 201);
+  border-color: rgb(44, 105, 201);
+}
+.btn-primary:hover {
+  background-color: #275eb4;
+  border-color: #275eb4;
 }
