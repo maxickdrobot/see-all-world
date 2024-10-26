@@ -1,0 +1,96 @@
+.wrapper {
+  padding: 0;
+  font-family: "LXGW WenKai TC", cursive;
+}
+
+.header {
+  font-size: 20px;
+  background-color: #4535C1;
+}
+
+.navbar-brand {
+  width: 8%;
+  min-width: 90px;
+}
+
+.nav-item > a {
+  color: #fff;
+}
+
+.navbar-nav .nav-link:focus {
+  color: #fff;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #77E4C8;
+}
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.search-btn {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.search-btn:hover {
+  font-weight: bold;
+  color: #4535C1;
+  background-color: #fff;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin-top: 5%;
+  margin-left: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+
+.tabs {
+  margin-top: 10%;
+}
+.tabs ul.tab-links {
+  font-size: 0;
+  margin-bottom: 20px;
+  margin-top: 10%;
+}
+.tabs ul.tab-links li {
+  font-size: 20px;
+  display: block;
+}
+.tabs ul.tab-links li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(9, 9, 105);
+  background-color: white;
+  padding: 6px 10px;
+}
+.tabs ul.tab-links li a:hover {
+  color: rgb(0, 0, 255);
+}
+.tabs .tab-content {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.tabs .tab-content div[id^=tab]:not(:target) {
+  display: none;
+}
+.tabs .tab-content div[id^=tab]:target {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

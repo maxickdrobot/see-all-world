@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin-top: 5%;
+    margin-left: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.tabs {
+    margin-top: 10%;
+    ul.tab-links {
+        font-size: 0;
+        margin-bottom: 20px;
+        margin-top: 10%;
+        li {
+            font-size: 20px;
+            display: block;
+            a {
+                display: block;
+                text-decoration: none;
+                color: rgb(9, 9, 105);
+                background-color: white;
+                padding: 6px 10px;
+
+                &:hover {
+                    color: rgb(0, 0, 255);
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 20px;
+       div[id^=tab]:not(:target) {
+        display: none;
+       }
+       div[id^=tab]:target {
+        display: block;
+       }
+    }
+}
