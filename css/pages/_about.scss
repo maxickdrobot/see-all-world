@@ -1,3 +1,4 @@
+@use "../global/variables";
 *{
     margin: 0;
     padding: 0;
@@ -52,4 +53,27 @@ h1 {
         display: block;
        }
     }
+}
+
+.card {
+    display: flex;
+    margin: 2% 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 30px;
+    padding: 50px 0;
+    background-color: variables.$footerColor;
+    color: variables.$light-color;
+}
+
+.footer__list {
+    list-style-type: none;
 }
