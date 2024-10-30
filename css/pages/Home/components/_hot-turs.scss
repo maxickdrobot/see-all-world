@@ -1,0 +1,62 @@
+@use "../../../global/responsive";
+
+.hot-turs {
+   
+}
+
+.hot-turs-slider {
+    @include responsive.responsiveMin (768px) {
+        width: 80% !important;
+    }
+}
+
+.hot-turs-slider .slider__body {
+    height: 450px;
+    @include responsive.responsiveMin (768px) {
+        height: 510px;
+    }
+    @include responsive.responsiveMin (992px) {
+        height: 600px;
+    }
+    @include responsive.responsiveMin (1200px) {
+        height: 650px;
+    }
+}
+
+.hot-turs-slider .prev {
+    background: url(../imgs/left-arrow.png) center center no-repeat;
+}
+
+.hot-turs-slider .next {
+    background: url(../imgs/right-arrow.png) center center no-repeat;
+}
+
+.hot-turs-slider .prev,
+.hot-turs-slider .next {
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 70%;
+    transition: all .2s;
+
+    &:hover {
+        background-size: 80%;
+    }
+}
+
+.slider__slide {
+    position: absolute;
+    width: 100%;
+    transition: all .5s;
+    opacity: 0;
+
+    img {
+        width: 90%;
+        max-height: 550px;
+        filter: contrast(1.3);
+    }
+}
+
+.slider__slide.current {
+    opacity: 1;
+}

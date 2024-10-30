@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,11 +15,12 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <div class="container-fluid wrapper">
     <header class="header fixed-top w-100">
-      <div class="container ">
-        <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand " href="#">
               <img src="imgs/logotype-Photoroom.png" alt="logotype" class="w-100">
@@ -68,7 +70,7 @@
           <form class="row g-3 needs-validation" action="https://fom.in.ua/echo">
             <div class="col-md-6 col-xl-4">
               <label for="validationCustom01" class="form-label">Країна</label>
-              <select class="form-select" name="country">
+              <select class="form-select" name="country" >
                 <option selected>Всі</option>
                 <option value="1">Єгипет</option>
                 <option value="2">Мальдіви</option>
@@ -125,11 +127,40 @@
           </form>
         </div>
       </section>
-      <main>
-        <div class="container">
-
+      <section class="hot-turs">
+        <div class="container py-5 text-center d-flex flex-column align-items-center">
+          <h1 class="mb-3">See all world - подорожуй без меж та відкривай світ з нами!</h1>
+          <div class="hot-turs-slider w-100 position-relative d-flex flex-column align-items-center align-items-center">
+            <div class="slider__body w-100 position-relative d-flex align-items-center text-center overflow-hidden">
+              <div class="slider__slide current">
+                <img src="imgs/heppy-peoples.jpg" class="img-fluid rounded-2" alt="Heppy peoples jumping">
+                <h3>Ми створюємо тури, що ідеально відповідають вашим побажанням та мріям. Жодних шаблонних програм, лише ваші унікальні враження!</h3>
+              </div>
+              <div class="slider__slide">
+                <img src="imgs/quality.jpg" class="img-fluid rounded-2" alt="Quality of service">
+                <h3>Ми завжди на зв’язку, щоб допомогти вам у будь-якій ситуації. Ваша безпека та комфорт – наш пріоритет.</h3>
+              </div>
+              <div class="slider__slide">
+                <img src="imgs/collaj.jpg" class="img-fluid rounded-2" alt="Colaj of countries">
+                <h3>Від екзотичних островів до європейських міст – ми пропонуємо тури на будь-який смак та бюджет.</h3>
+              </div>
+              <div class="slider__slide">
+                <img src="imgs/special-offer.jpg" class="img-fluid rounded-2" alt="Special offer">
+                <h3>Завдяки нашим партнерам по всьому світу, ми можемо запропонувати вам вигідні ціни та спеціальні пропозиції, які не знайдете самостійно.</h3>
+              </div>
+              <div class="slider__slide">
+                <img src="imgs/іuitcases.jpg" class="img-fluid rounded-2" alt="Suitcases">
+                <h3>Ми беремо на себе всю організацію: бронювання авіаквитків, готелів, трансферів, екскурсій. Вам залишається лише насолоджуватися відпочинком!</h3>
+              </div>
+            </div> 
+            <div>
+              <button class="btn prev mx-3"></button>
+              <button class="btn next mx-3"></button>
+            </div>
+          </div>
         </div>
-      </main>
+      </section>
+    </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -137,5 +168,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"
     integrity="sha512-xgIrH5DRuEOcZK5cPtVXx/WSp5DTir2JNcKE5ahV2u51NCTD9UDxbQgZHYHVBlPc4H8tug6BZTYIl2RdA/X0Vg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
