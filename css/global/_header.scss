@@ -34,17 +34,6 @@
     }
 }
 
-.search-btn {
-    color: tools.$light-color;
-    border: 2px solid tools.$light-color;
-
-    &:hover {
-        font-weight: bold;
-        color: tools.$primary-color;
-        background-color: tools.$light-color;
-    }
-}
-
 .navbar-toggler {
     background-color: white;
 }

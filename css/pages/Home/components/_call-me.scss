@@ -1,0 +1,14 @@
+.call-me {
+    background-color: tools.$primary-color;
+    color: tools.$light-color;
+}
+
+.call-me__btn {
+    border-color: tools.$light-color;
+    
+    &:hover {
+        border-color: tools.$light-color;
+        color: tools.$primary-color;
+        background-color: tools.$light-color;
+    }
+}

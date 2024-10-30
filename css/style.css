@@ -32,16 +32,6 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-.search-btn {
-  color: #fff;
-  border: 2px solid #fff;
-}
-.search-btn:hover {
-  font-weight: bold;
-  color: #2c69c9;
-  background-color: #fff;
-}
-
 .navbar-toggler {
   background-color: white;
 }
@@ -140,4 +130,18 @@ h1, h2, h3, h4 {
 
 .slider__slide.current {
   opacity: 1;
+}
+
+.call-me {
+  background-color: #2c69c9;
+  color: #fff;
+}
+
+.call-me__btn {
+  border-color: #fff;
+}
+.call-me__btn:hover {
+  border-color: #fff;
+  color: #2c69c9;
+  background-color: #fff;
 }
