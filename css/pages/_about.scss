@@ -1,5 +1,5 @@
 @use "../global/variables";
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -25,9 +25,11 @@ h1 {
         margin-bottom: 20px;
         margin-top: 10%;
         li {
+            width: 100%;
             font-size: 20px;
             display: block;
             a {
+                width: 100%;
                 display: block;
                 text-decoration: none;
                 color: rgb(9, 9, 105);
@@ -56,8 +58,16 @@ h1 {
 }
 
 .card {
-    display: flex;
+    height: 525px;
+    display: block;
     margin: 2% 0;
+    &-img-top {
+        height: 19.5rem;
+    }
+
+    &-text {
+        font-size: 18px;
+    }
 }
 
 span {
