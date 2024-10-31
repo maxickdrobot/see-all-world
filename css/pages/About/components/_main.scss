@@ -1,0 +1,194 @@
+@use "../../../global/variables";
+
+.main {
+    margin-top: 5%;
+    margin-left: 0;
+
+    @media (max-width: variables.$lg) {
+        margin-top: 10%;
+    }
+
+    @media (max-width: variables.$md) {
+        margin-top: 15%;
+    }
+
+    @media (max-width: variables.$sm) {
+        margin-top: 20%;
+    }
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.tabs {
+    margin-top: 10%;
+    ul.tab-links {
+        font-size: 0;
+        margin-bottom: 20px;
+        margin-top: 10%;
+
+        li {
+            width: 100%;
+            font-size: 20px;
+            display: block;
+            a {
+                width: 100%;
+                display: block;
+                text-decoration: none;
+                color: variables.$darken-color;
+                background-color: white;
+                padding: 6px 10px;
+
+                &:hover {
+                    color: variables.$primary-color;
+                }
+            }
+        }
+
+        @media (max-width: variables.$lg) {
+            margin-top: 10%;
+            li {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .tab-content {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-size: 20px;
+       div[id^=tab]:not(:target) {
+        display: none;
+       }
+       div[id^=tab]:target {
+        display: block;
+       }
+    }
+}
+
+.card {
+    display: block;
+    margin: 2% 0;
+    &-img-top {
+        height: 19.5rem;
+    }
+
+    &-text {
+        font-size: 18px;
+    }
+
+    @media (max-width: variables.$ul) {
+        height: 550px; 
+        &-img-top {
+            height: 19.5rem;
+        }
+    }
+
+    @media (max-width: variables.$xl) {
+        height: 650px; 
+        &-img-top {
+            height: 19.5rem;
+        }
+    }
+    
+    @media (max-width: variables.$lg) {
+        height: auto;
+        &-img-top {
+            height: 18.125rem;
+        }
+    }
+
+    @media (max-width: variables.$md) {
+        height: auto;
+        &-img-top {
+            height: 19.5rem;
+        }
+    }
+
+    @media (max-width: variables.$sm) {
+        height: auto;
+        &-img-top {
+            height: 19.5rem;
+        }
+    }
+
+}
+
+span {
+    font-weight: bold;
+}
+
+@media (max-width: variables.$lg) {
+    h1 {
+        width: 100px;
+        margin-left: 45px;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: variables.$md) {
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .col-3 {
+        text-align: center;
+        width: 100%;
+        h1 {
+            width: 100%;
+            margin: 0;
+        }
+
+        a {
+            border: 2px solid black;
+        }
+
+        ul.tab-links {
+            margin-right: 30px;
+        }
+
+
+    }
+
+}
+
+@media (max-width: variables.$sm) {
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .col-3 {
+        text-align: center;
+        width: 100%;
+        h1 {
+            width: 100%;
+            margin: 0 ;
+        }
+
+        a {
+            border: 2px solid black;
+        }
+
+        ul.tab-links {
+            margin-right: 30px;
+        }
+
+
+    }
+}
+
