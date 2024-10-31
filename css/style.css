@@ -48,31 +48,20 @@
   background-color: white;
 }
 
-.main {
-  margin-top: 5%;
-  margin-left: 0;
-}
-@media (max-width: 960px) {
-  .main {
-    margin-top: 10%;
-  }
-}
-@media (max-width: 600px) {
-  .main {
-    margin-top: 15%;
-  }
-}
-@media (max-width: 480px) {
-  .main {
-    margin-top: 20%;
-  }
-}
-
 h1 {
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
   margin: 0 0 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.main {
+  margin-top: 5%;
+  margin-left: 0;
 }
 
 .tabs {
@@ -99,14 +88,6 @@ h1 {
 .tabs ul.tab-links li a:hover {
   color: #4535C1;
 }
-@media (max-width: 960px) {
-  .tabs ul.tab-links {
-    margin-top: 10%;
-  }
-  .tabs ul.tab-links li {
-    font-size: 18px;
-  }
-}
 .tabs .tab-content {
   display: flex;
   justify-content: center;
@@ -130,6 +111,21 @@ h1 {
 .card-text {
   font-size: 18px;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin-top: 30px;
+  padding: 50px 0;
+  background-color: #008DDA;
+  color: #fff;
+}
+
+.footer__list {
+  list-style-type: none;
+}
+
 @media (max-width: 1280px) {
   .card {
     height: 550px;
@@ -147,35 +143,6 @@ h1 {
   }
 }
 @media (max-width: 960px) {
-  .card {
-    height: auto;
-  }
-  .card-img-top {
-    height: 18.125rem;
-  }
-}
-@media (max-width: 600px) {
-  .card {
-    height: auto;
-  }
-  .card-img-top {
-    height: 19.5rem;
-  }
-}
-@media (max-width: 480px) {
-  .card {
-    height: auto;
-  }
-  .card-img-top {
-    height: 19.5rem;
-  }
-}
-
-span {
-  font-weight: bold;
-}
-
-@media (max-width: 960px) {
   h1 {
     width: 100px;
     margin-left: 45px;
@@ -187,6 +154,21 @@ span {
     flex: 0 0 auto;
     width: 100%;
   }
+  .card {
+    height: auto;
+  }
+  .card-img-top {
+    height: 18.125rem;
+  }
+  .main {
+    margin-top: 10%;
+  }
+  ul.tab-links {
+    margin-top: 10%;
+  }
+  ul.tab-links li {
+    font-size: 18px;
+  }
 }
 @media (max-width: 600px) {
   .col-6 {
@@ -206,6 +188,15 @@ span {
   }
   .col-3 ul.tab-links {
     margin-right: 30px;
+  }
+  .card {
+    height: auto;
+  }
+  .card-img-top {
+    height: 19.5rem;
+  }
+  .main {
+    margin-top: 15%;
   }
 }
 @media (max-width: 480px) {
@@ -227,17 +218,13 @@ span {
   .col-3 ul.tab-links {
     margin-right: 30px;
   }
-}
-.footer {
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  margin-top: 30px;
-  padding: 50px 0;
-  background-color: #008DDA;
-  color: #fff;
-}
-
-.footer__list {
-  list-style-type: none;
+  .card {
+    height: auto;
+  }
+  .card-img-top {
+    height: 19.5rem;
+  }
+  .main {
+    margin-top: 20%;
+  }
 }/*# sourceMappingURL=style.css.map */

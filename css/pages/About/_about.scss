@@ -3,3 +3,120 @@
 @import "./components/main";
 @import "./components/footer";
 
+@media (max-width: variables.$ul) {
+    .card {
+        height: 550px; 
+        &-img-top {
+            height: 19.5rem;
+        }
+    }
+}
+
+@media (max-width: variables.$xl) {
+    .card {
+        height: 650px; 
+        &-img-top {
+            height: 19.5rem;
+        }
+    }
+}
+
+@media (max-width: variables.$lg) {
+    h1 {
+        width: 100px;
+        margin-left: 45px;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .card {
+        height: auto;
+        &-img-top {
+            height: 18.125rem;
+        }
+    }
+
+    .main {
+        margin-top: 10%;
+    }
+
+    ul.tab-links {
+        margin-top: 10%;
+        li {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: variables.$md) {
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .col-3 {
+        text-align: center;
+        width: 100%;
+        h1 {
+            width: 100%;
+            margin: 0;
+        }
+        a {
+            border: 2px solid black;
+        }
+        ul.tab-links {
+            margin-right: 30px;
+        }
+    }
+
+    .card {
+        height: auto;
+        &-img-top {
+            height: 19.5rem;
+        }
+    }
+
+    .main {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: variables.$sm) {
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .col-3 {
+        text-align: center;
+        width: 100%;
+        h1 {
+            width: 100%;
+            margin: 0 ;
+        }
+        a {
+            border: 2px solid black;
+        }
+        ul.tab-links {
+            margin-right: 30px;
+        }
+    }
+
+    .card {
+        height: auto;
+        &-img-top {
+            height: 19.5rem;
+        }
+    }
+
+    .main {
+        margin-top: 20%;
+    }
+}
