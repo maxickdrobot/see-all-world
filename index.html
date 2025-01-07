@@ -129,6 +129,7 @@
           </form>
         </div>
       </section>
+      
       <section class="hot-turs">
         <div class="container py-5 text-center d-flex flex-column align-items-center">
           <h1 class="mb-3">See all world - подорожуй без меж та відкривай світ з нами!</h1>
@@ -162,27 +163,70 @@
           </div>
         </div>
       </section>
-      <section class="call-me">
-        <div class="container py-4">
-          <h2 class="call-me__title">Хочете, щоб ми передзвонили Вам та допомогли вибрати тур? Залишіть Ваші контакти і ми передзвонимо протягом 10хв!</h2>
-          <form class="row g-3 needs-validation" action="https://fom.in.ua/echo">
+
+      <section class="advantages py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Чому обирають нас?</h2>
+          <div class="row text-center">
             <div class="col-md-4">
-              <label for="name" class="form-label">Ваше ім'я</label>
-              <input type="text" class="form-control" name="name" id="name" placeholder="Ім'я" required>
+              <i class="fa-solid fa-money-check-dollar fa-3x mb-3"></i>
+              <h4>Доступні ціни</h4>
+              <p>Ми пропонуємо найкращі ціни на ринку.</p>
             </div>
             <div class="col-md-4">
-              <label for="tel" class="form-label">Номер телефону</label>
-              <input type="tel" class="form-control" name="tel" id="tel" placeholder="+38-(099)-000-00-00" required>
+              <i class="fa-solid fa-plane fa-3x mb-3"></i>
+              <h4>Широкий вибір</h4>
+              <p>Тури в будь-який куточок світу.</p>
             </div>
-            <div class="col-12 mt-4">
-              <button class="btn btn-primary call-me__btn" type="submit">Передзвоніть мені</button>
+            <div class="col-md-4">
+              <i class="fa-solid fa-headset fa-3x mb-3"></i>
+              <h4>Підтримка 24/7</h4>
+              <p>Завжди на зв’язку, щоб допомогти вам.</p>
             </div>
-          </form>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Відгуки наших клієнтів</h2>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <blockquote class="blockquote text-center">
+                  <p>"Це був найкращий відпочинок у нашому житті! Дякуємо See All World за організацію."</p>
+                  <div class="blockquote-footer text-white-50">Анна з Києва</div>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center">
+                  <p>"Зручний сайт і швидка допомога менеджера. Все пройшло ідеально!"</p>
+                  <div class="blockquote-footer text-white-50">Олександр зі Львова</div>
+                </blockquote>
+              </div>
+              <div class="carousel-item">
+                <blockquote class="blockquote text-center">
+                  <p>"Завжди подорожую з вами. Рекомендую всім знайомим!"</p>
+                  <div class="blockquote-footer text-white-50">Марія з Харкова</div>
+                </blockquote>
+              </div>
+            </div>
+            <div class="position-relative">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
       <section>
         <div class="container py-5">
-          <h2 class="mb-4">Як обрати тур? Все дуже легко!</h2>
+          <h2 class="mb-4 text-center">Як обрати тур? Все дуже легко!</h2>
           <div class="row row-cols-1 row-cols-md-3 row-cols-xl-5 g-4">
             <div class="col">
               <div class="card h-100">
@@ -227,6 +271,132 @@
           </div>
         </div>
       </section>
+      <section class="popular-destinations py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Популярні напрямки</h2>
+          <div class="d-flex row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="imgs/egypt.jpg" class="card-img-top" alt="Egypt">
+                <div class="card-body">
+                  <h5 class="card-title">Єгипет</h5>
+                  <p class="card-text">Відпочинок на Червоному морі з екзотикою та історією.</p>
+                  <a href="#" class="btn btn-primary">Детальніше</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="imgs/maldives.jpg" class="card-img-top" alt="Maldives">
+                <div class="card-body">
+                  <h5 class="card-title">Мальдіви</h5>
+                  <p class="card-text">Райські пляжі для незабутнього відпочинку.</p>
+                  <a href="#" class="btn btn-primary">Детальніше</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="imgs/france.jpg" class="card-img-top" alt="France">
+                <div class="card-body">
+                  <h5 class="card-title">Франція</h5>
+                  <p class="card-text">Культурні та гастрономічні пригоди у серці Європи.</p>
+                  <a href="#" class="btn btn-primary">Детальніше</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="call-me">
+        <div class="container py-4">
+          <h2 class="call-me__title">Хочете, щоб ми передзвонили Вам та допомогли вибрати тур? Залишіть Ваші контакти і ми передзвонимо протягом 10хв!</h2>
+          <form class="row g-3 needs-validation" action="https://fom.in.ua/echo">
+            <div class="col-md-4">
+              <label for="name" class="form-label">Ваше ім'я</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Ім'я" required>
+            </div>
+            <div class="col-md-4">
+              <label for="tel" class="form-label">Номер телефону</label>
+              <input type="tel" class="form-control" name="tel" id="tel" placeholder="+38-(099)-000-00-00" required>
+            </div>
+            <div class="col-12 mt-4">
+              <button class="btn btn-primary call-me__btn" type="submit">Передзвоніть мені</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      
+      <section class="faq ">
+        <div class="container py-5">
+          <h2 class="text-center mb-5">Поширені питання</h2>
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Як забронювати тур?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Зареєструйтесь на нашому сайті та оберіть бажаний тур зі списку. Після цього заповніть форму з даними та підтвердіть бронювання.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Які способи оплати доступні?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Ми приймаємо оплату картками Visa, MasterCard, а також через електронні платіжні системи.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Чи можу я змінити дату туру?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Так, ви можете змінити дату туру за умови, що зміни здійснені не пізніше ніж за 48 годин до старту туру. Для цього зв'яжіться з нашою службою підтримки.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Чи можна скасувати тур і отримати повернення коштів?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Скасування можливе за умови, що воно відбудеться не пізніше ніж за 72 години до початку туру. В залежності від обраної політики скасування, повернення коштів може бути частковим.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed fs-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Чи є обмеження по віку для участі в турах?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Так, деякі тури мають вікові обмеження. Ви можете дізнатися більше про умови кожного туру на його сторінці.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
     </main>
     <footer class="footer">
       <div class="container">
